@@ -42,7 +42,7 @@ gráfico de cars
 
 ``` r
 plot(cars$speed, cars$dist, title= Cars,
-col.lines = "steelblue", lwd = 2)
+col.lines = "steelblue", lwd = 4)
 ```
 
 ![](MiRepo_files/figure-html/unnamed-chunk-1-1.png)<!-- -->
