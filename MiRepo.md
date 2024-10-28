@@ -41,7 +41,8 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 gráfico de cars
 
 ``` r
-plot(cars$speed, cars$dist)
+plot(cars$speed, cars$dist, main= Cars,
+col.lines = "steelblue", lwd = 2)
 ```
 
 ![](MiRepo_files/figure-html/unnamed-chunk-1-1.png)<!-- -->
